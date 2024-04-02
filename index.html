@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="todo-app.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoader', function(){
+            createTodoApp(document.getElementById('todo-app'), 'My todo list')
+        })
+    </script>
+</head>
+<body>
+    <div id="todo-app" class="container"></div>
+</body>
+</html>
